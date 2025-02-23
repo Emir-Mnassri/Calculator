@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="scripts/script.js" defer></script>
 </head>
 <body>
     <div class="calculator">
-        <div class="display"></div>
+        <div class="display" id="display">
+            <div class="expression-display" id="expressionDisplay">
+            </div>
+            <div class="number-display" id="numberDisplay">
+            </div>
+        </div>
         <div class="clear-section">
             <button id="clearButton" class="clear-buttons">CE</button>
             <button id="deleteButton" class="clear-buttons">DELETE</button>
